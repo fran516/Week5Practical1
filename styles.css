@@ -22,8 +22,8 @@ body {
     top:0%;
 }
 
-.background.slide-left {
-    animation: move 10s infinite linear;
+.slide-left {
+    animation: move 10s infinite alternate;
 }
 
 @keyframes move {
@@ -163,7 +163,8 @@ body {
         transform: rotate(-90deg);
     }
 }
-.plane.turbulance {
+
+.turbulance {
     animation: turb 0.1s infinite;
 }
 
@@ -182,7 +183,7 @@ body {
     }
 }
 
-.background.sunset {
+.sunset {
     background-color: skyblue;  
     animation: sunset 10s infinite linear;
 }
